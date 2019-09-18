@@ -1,0 +1,46 @@
+
+#startPage {
+     display: flex;
+     flex-direction: column;
+     justify-content : center;
+     align-items: center;
+}
+ #headerConainer {
+     display: flex;
+     border: 1px solid black;
+     justify-content : center;
+     width: 50%;
+}
+ #startContainer {
+     margin-top: 15%;
+     display: flex;
+     border: 1px solid black;
+     flex-direction: row;
+     justify-content : space-between;
+     width: 50%;
+}
+ .playerConainer {
+     display: flex;
+     flex-direction: row;
+     justify-content : space-around;
+}
+ #btnStart {
+     width: 5vw;
+     height: 5vh;
+}
+ #btnContainer{
+     display: flex;
+     align-items: flex-end;
+}
+ .playerConainer {
+     display: flex;
+     flex-direction: column;
+     justify-content : center;
+     align-items: center;
+}
+ .playerConainer > input {
+     margin: 2vw;
+}
+ #btnStart {
+     margin-bottom: 0.5vw;
+}
