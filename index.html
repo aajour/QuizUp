@@ -1,78 +1,107 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>QuizUp!</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Changa&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-</head>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Changa&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
-
+  <body>
     <!-- //////////////// Start Page  Start //////////////// -->
 
     <div id="startPage">
+      <div id="headerConainer">
+        <h1 id="header">Quiz Up</h1>
+      </div>
 
-        <div id="headerConainer">
-            <h1 id="header">Quiz Up</h1>
+      <div id="startContainer">
+        <div id="playerNames">
+          <div class="playerConainer">
+            <h2 style="display: inline-block;">Player 1</h2>
+            <input type="text" id="playerNames" class="player1"/>
+          </div>
+          <div class="playerConainer">
+            <h2 style="display: inline-block;">Player 2</h2>
+            <input type="text" id="playerNames" class="player2" />
+          </div>
         </div>
-
-        <div id="startContainer">
-            <div class="playerConainer">
-                <h2 style="display: inline-block;">Player 1</h2>
-                <input type="text" id="playerNames">
-            </div>
-            <div id="btnContainer">
-                <button id="btnStart">Start</button>
-            </div>
-            <div class="playerConainer">
-                <h2 style="display: inline-block;">Player 2</h2>
-                <input type="text" id="playerNames">
-            </div>
+        <div id="btnContainer">
+          <button id="btnStart">Start</button>
         </div>
-
+      </div>
     </div>
 
     <!-- //////////////// Start Page  End //////////////// -->
 
     <!-- //////////////// Question Page  Start //////////////// -->
 
+    <div id="questionPage">
+        <div>
+            <h1>Quiz Up</h1>
+        </div>
+        <div id="question" style="width: 70%; height: 100px;">
+            <h4 ></h4>
+            <hr id="questionLine">
+        </div>
+        
+        <div class="answers" style="height: 100px">
+            <div>
+                <h5 id="answer1"></h5>
+            </div>
+            <div>
+                <h5 id="answer2"></h5>
+            </div>
+        </div>
+        <div class="answers">
+            <div>
+                <h5 id="answer3"></h5>
+            </div>
+            <div>
+                 <h5 id="answer4"> </h5>
+            </div>
+        </div>
+
+    </div>
+
     <!-- //////////////// Question Page  End //////////////// -->
 
     <!-- //////////////// Result Page  Start //////////////// -->
-<div id="resultPage">
+    <div id="resultPage">
+      <div id="pageTitle">
+        <h1>Quiz Up!</h1>
+        <h3>Final Score</h3>
+      </div>
 
-    <div id="pageTitle">
-        <h1>Quiz Up! </h1>
-        <h3> Final Score </h3>
-    </div>
-
-    <div id="playerNames">
+      <div id="playerNames">
         <div class="playerScore">
-            <h2> Player 1 </h2>
-            <h2> 3 </h2>
+          <h2>Player 1</h2>
+          <h2>3</h2>
         </div>
 
         <div class="vl"></div>
         <div class="playerScore">
-            <h2> Player 2 </h2>
-            <h2> 0 </h2>
-
+          <h2>Player 2</h2>
+          <h2>0</h2>
         </div>
 
     </div>
 </div>
 
 
+      </div>
     </div>
-</div>
-
 
     <!-- //////////////// Result Page  End //////////////// -->
 
     <script type="text/javascript" src="script.js"></script>
-</body>
-
+  </body>
 </html>
