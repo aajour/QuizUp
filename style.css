@@ -7,7 +7,36 @@
   width: 70%;
   height: 70vh;
   background-color: #c9f3f5;
+  margin-top: 20vh;
 }
+button {
+  cursor: pointer;
+  border: none;
+  background: #3a7999;
+  color: #f2f2f2;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  position: relative;
+  box-sizing: border-box;
+  transition: all 500ms ease;
+  text-align: center;
+}
+button:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 42px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  transition: all 2s ease;
+}
+button:hover:before {
+  width: 100%;
+}
+
 #headerConainer {
   display: flex;
   justify-content: center;
@@ -86,60 +115,67 @@ body {
 
 .vl {
   border-left: 6px solid black;
-  height: 30vh;
+  height: 25vh;
   margin-bottom: 3vh;
 }
 
 .playerScore {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
 }
-
+.winner {
+  color: green;
+}
+.looser {
+  color: red;
+}
+#resetBtn {
+  background-color: coral;
+}
 /*  Question Page */
 
-#questionPage{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: space-between;
-    width: 70%;
-    height: 50vh;
-    align-items: center;
-    border: 1px solid black;
-    background-color: #c9f3f5;
-    margin-top: 20vh;
-    height: 70vh;
+#questionPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 70%;
+  height: 50vh;
+  align-items: center;
+  border: 1px solid black;
+  background-color: #c9f3f5;
+  margin-top: 20vh;
+  height: 70vh;
 }
 /* 
 #questionPage > div {
     width: 100%;
 } */
-.answers{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;    
+.answers {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.answers > div > h5{
-    margin: 3vh;    
+.answers > div > h5 {
+  margin: 3vh;
 }
 
 #questionLine {
-    border: 0;
-    height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
-input{
-    font-size:18px;
-    padding:10px 10px 10px 5px;
-    display:block;
-    width:300px;
-    border:none;
-    border-bottom:1px solid #757575;
-  }
-
+input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #757575;
+}
