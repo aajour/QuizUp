@@ -2,7 +2,6 @@
 ## You think you can BEAT me? then let's QuizUp!
 
 
-<hr>
 QuizUp: A simple multiplayer quiz game.
 
 
@@ -18,7 +17,7 @@ QuizUp: A simple multiplayer quiz game.
 
 
 ## Want to play? 
-[here](https://aajour.github.io/QuizUp/)
+[Click Here](https://aajour.github.io/QuizUp/)
 
 > :bowtie: Done by: Mohammed Khamiseh, Ahmed Ajour :bowtie:
 
