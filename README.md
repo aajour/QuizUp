@@ -1,10 +1,9 @@
 # QuizUp
 ## You think you can BEAT me? then let's QuizUp!
 
-> :bowtie: Done by: Mohammed Khamiseh, Ahmed Ajour :bowtie:
 
 <hr>
- > QuizUp: A simple multiplayer quiz game.
+QuizUp: A simple multiplayer quiz game.
 
 
 ## How to play?
@@ -21,5 +20,6 @@
 ## Want to play? 
 [here](https://aajour.github.io/QuizUp/)
 
+> :bowtie: Done by: Mohammed Khamiseh, Ahmed Ajour :bowtie:
 
 THANKS! :heart:
